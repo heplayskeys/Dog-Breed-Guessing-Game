@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Hangman: Dog Breeds</h1>
+    </header>
+
+    <div>
+
+        <section id="dogInfo">
+            <p><span id="dogDetail"><h2>READY? SET? GO!!!</h2></span></p>
+        </section>
+
+        <section id="game">
+            <p><h3>Welcome to Hangman! Dog Breeds Edition!</h3></p>
+
+            <p id="pressAnyKey">Press any key to begin...</p>
+
+        </br>
+            
+            <div class="centerText">
+                <p class="bold">Current Word:</p>
+
+                <p><span id="currentWord"></span></p>
+                </br>
+                <p class="bold">Guesses Remaining: <span id="remGuesses"></span></p>
+
+                <p class="bold">Letters Guessed:</br>
+                <span id="guessedSoFar"></span></p>
+                </br>
+            </div>
+            
+            <hr>
+
+            <h2>Score:</h2>
+
+            <p>Wins: <span id="winCount"></span></p>
+            <p>Losses: <span id="lossCount"></span></p>
+        
+        </section>
+
+    </div>
+    <script src="assets/javascript/lastTry.js"></script>
+</body>
+</html>
